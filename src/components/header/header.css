@@ -1,0 +1,78 @@
+header#main-header{
+    background: #FFF;
+    height: 80px;
+    width: 100%;
+}
+
+.logo{
+    left: 13%;
+    margin-top: 0.5%;
+    position: absolute;
+}
+
+.menuheader{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 51.5%;
+    top: 50%;
+}
+
+.menuheader h4{
+    font-size: 15px;
+}
+
+.linha-vertical {
+    height: 12px;
+    border-left: 2px solid;
+    color: rgb(223, 215, 213);
+    margin-top: 0.4%;
+}
+
+.link1{
+    color:rgb(0,102,0);
+}
+
+.link2{
+    color: rgb(47,26,80);
+}
+
+.link3{
+    color: rgb(212,110,144);
+}
+
+.link4{
+    color: rgb(239,102,0);
+}
+
+.link5{
+    color: rgb(123,41,120);
+}
+
+.imagemMenu{
+    width: 30px;
+}
+
+#checc{
+    display: none;
+}
+
+@media (max-width : 375px) and (max-height: 812px){
+
+
+    .logo{
+        width: 100px;
+        top: 2%;
+        left: 4%;
+    }
+
+    .imagemMenu{
+        width: 20px;
+        margin-left: 1600%; 
+        margin-top: 150%;    
+    }
+    
+    
+
+}

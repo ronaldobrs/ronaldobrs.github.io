@@ -1,0 +1,128 @@
+main{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1365px;
+}
+
+body{
+    background: rgb(249,249,249);
+}
+
+.titulo{
+    font-size: 30px;
+    color: rgb(4,98,35);
+    margin-top: 2%;
+    text-align: center;
+}
+
+.linhatempo2{
+    margin-top: 2.5%;
+    margin-left: 20%;
+}
+
+.btn1pg2{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(193, 196, 181);
+    font-size: 12px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 5px;
+    color: black;
+    position:absolute;
+    top: 88%;
+    left: 45%;
+}
+
+.btn1pg2:hover{
+    opacity: 5s;
+    color: white;
+    transition: all 0.70s;
+    background-color: rgb(188,213,65);
+    text-decoration: none;
+}
+
+.btn2pg2{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(188,213,65);
+    font-size: 12px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+    position:absolute;
+    top: 88%;
+    left: 53%;
+}
+
+.btn2pg2:hover{
+    opacity: 5s;
+    color: black;
+    transition: all 0.70s;
+    background-color: rgb(193, 196, 181);
+    text-decoration: none;
+}
+
+.dadosendereco{
+    width: 950px;
+    background: rgb(242,242,242);
+    height: 200px;
+    margin-left: 19%;
+    margin-top: 2%;
+}
+
+.dadosendereco h2{
+    font-size: 22px;
+    color: rgb(154,154,154);
+    text-align: center;
+    padding: 2%;
+}
+
+input[type=radio]{
+    margin: .9rem;
+    width: 17px;
+    height: 17px;
+    margin-left: 10%;
+}
+
+
+.inputpg2{
+    border:1px solid #c2c2c2;
+    margin-left: 2%;
+    border-radius: 7px;
+    width: 550px;
+    height: 20px;
+}
+
+@media (max-width : 400px){
+    
+    .linhatempo2{
+        max-width: 360px;
+        margin-left: 3%;
+     }
+     
+
+     .dadosendereco{
+         max-width: 360px;
+         margin-left: 3%;
+         margin-top: 8%;
+     }
+
+     .inputpg2{
+         max-width: 352px;
+         margin-left: 1%;
+         margin-top: 5%;
+     }
+
+     .btn2pg2{
+         margin-top: -30%
+     }
+
+     .btn1pg2{
+         margin-top: -30%;
+         margin-left: -22%;
+     }
+}

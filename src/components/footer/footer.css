@@ -1,0 +1,29 @@
+footer p{
+    text-align: center;
+    font-size: 12px;
+    line-height:60px
+}
+
+.divfooter{
+    background-color: rgb(233, 233, 233);
+    margin-top: 10%;
+    height: 60px;
+    position: relative;
+}
+
+@media (max-width : 375px) {
+    
+    footer p{
+        text-align: center;
+        font-size: 11px;
+        line-height :60px;
+    }
+    
+    .divfooter{
+        background-color: rgb(233, 233, 233);
+        margin-top: 30%;
+        height: 60px;
+        width: 375px;
+    }
+
+}

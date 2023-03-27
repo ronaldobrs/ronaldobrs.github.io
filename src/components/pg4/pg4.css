@@ -1,0 +1,95 @@
+main{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1365px;
+}
+
+body{
+    background: rgb(249,249,249);
+}
+
+.titulo{
+    font-size: 30px;
+    color: rgb(4,98,35);
+    margin-top: 2%;
+    text-align: center;
+}
+
+.linhatempo4{
+    margin-top: 2.5%;
+    margin-left: 23%;
+}
+
+.btn1pg4{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(193, 196, 181);
+    font-size: 12px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 5px;
+    color: black;
+    position:absolute;
+    top: 88%;
+    left: 45%;
+}
+
+.btn1pg4:hover{
+    opacity: 5s;
+    color: white;
+    transition: all 0.70s;
+    background-color: rgb(188,213,65);
+    text-decoration: none;
+}
+
+.btn2pg4{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(188,213,65);
+    font-size: 12px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+    position:absolute;
+    top: 88%;
+    left: 53%;
+}
+
+.btn2pg4:hover{
+    opacity: 5s;
+    color: black;
+    transition: all 0.70s;
+    background-color: rgb(193, 196, 181);
+    text-decoration: none;
+}
+
+.textopg3{
+    text-align: center;
+    margin-top: 2%;
+    color: rgb(97, 97, 97)
+}
+
+@media (max-width : 400px){
+    
+    .linhatempo4{
+        max-width: 360px;
+        margin-left: 3%;
+    }
+
+    .dadosendereco{
+        height: 250px;
+    }
+
+    .btn2pg4{
+        margin-top: -35%
+     }
+
+     .btn1pg4{
+        margin-top: -35%;
+        margin-left: -22%;
+    }
+
+}
